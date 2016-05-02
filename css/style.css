@@ -113,5 +113,11 @@
   }
 
   .languages{
-    background: #019444;
+    padding-top: 10px;
+    background: #91D300;
+  }
+  .imghov:hover{
+   cursor: auto;
+   height:210px;
+   width: 210px;
   }
