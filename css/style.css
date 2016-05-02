@@ -116,8 +116,14 @@
     padding-top: 10px;
     background: #91D300;
   }
-  .imghov:hover{
-   cursor: auto;
-   height:210px;
-   width: 210px;
+
+  .imghov:hover {
+  -webkit-transform:scale(1.2); /*Webkit: Scale down image to 0.8x original size*/
+  -moz-transform:scale(1.2); /*Mozilla scale version*/
+  -o-transform:scale(1.2); /*Opera scale version*/
+  -webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+  -moz-transition-duration: 0.5s; /*Mozilla duration version*/
+  -o-transition-duration: 0.5s; /*Opera duration version*/
+  opacity: 1; /*initial opacity of images*/
+  margin: 0 10px 10px 0; /*margin between images*/
   }
