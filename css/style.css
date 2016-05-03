@@ -105,12 +105,16 @@
     font-size: 28px;
     line-height: 3em;
   }
+  .hobby{
+    margin-top: 120px;
+    margin-left: 60px;
+  }
 
   footer{
     color: white;
     text-align: center;
     height: 60px;
-    background: #2A7B98;
+    background: #010100;
     padding-top: 20px;
   }
   .interests{
