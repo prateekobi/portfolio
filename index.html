@@ -8,25 +8,41 @@
 <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+    <scriptsrc="js/jquery.js"></script>
     <link href="css/font-awesome.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
   </head>
+
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <div class="container dropdown">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+            <ul class="nav navbar-nav navbar-right dropdown-menu">
+              <li class="active"><a href="index.html">Home <span>Main Page</span></a></li>
+              <li class="active"><a href="#scroll-interests" id="button" >Interests<span>My interests</span></a></li>
+              <li class="active"><a href="#scroll-skills" id="button" >Skills<span>Technical skills</span></a></li>
+              <li class="active"><a href="#scroll-projects" id="button" >Projects<span>Recent projects</span></a></li>
+              <li class="active"><a href="#scroll-slogan" id="button" >About me<span>What i'm striving for</span></a></li>
+              <li class="active"><a href="#scroll-contact" id="button" >Contact<span>Contact me</span></a></li>
+            </ul>
+         </button>
           <a class="navbar-brand logo-nav" href="index.html"><img src="img/logo.png"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">Home <span>Main Page</span></a></li>
+            <li class="active"><a href="#scroll-interests" id="button" >Interests<span>My interests</span></a></li>
+            <li class="active"><a href="#scroll-skills" id="button" >Skills<span>Technical skills</span></a></li>
+            <li class="active"><a href="#scroll-projects" id="button" >Projects<span>Recent projects</span></a></li>
+            <li class="active"><a href="#scroll-slogan" id="button" >About me<span>What i'm striving for</span></a></li>
+            <li class="active"><a href="#scroll-contact" id="button" >Contact<span>Contact me</span></a></li>
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -89,31 +105,23 @@
       </div>
     </section>
 
-    <section class="interests">
+    <section class="section-secondary slogan wow bounceInLeft" id="scroll-slogan" data-wow-duration="2s" data-wow-delay="0.7s">
       <div class="container">
+        <h1 class="page-header">What im striving for</h1>
         <div class="row">
           <div class="col-md-6">
-            <h2 class="page-header wow bounceInLeft"  data-wow-duration="1s" data-wow-delay="0.7s">Hobbies and interests</h2>
-            <ul class="feature-list">
-              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-glass"> Making Cocktails</i></li>
-              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-music"> Acoustic Guitar</i></li>
-              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-leaf">  Fishing</i>
-              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-tree-conifer"> Hiking</i></li>
-              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-play"> Gaming</i></li>
-              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-book"> Reading</i></li>
-              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-facetime-video"> Star Wars</i></li>
-              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="1s"><i class="glyphicon glyphicon-thumbs-up"> And coding of course </i></li>
-            </ul>
+            <p>Having worked in the hospitality industry for the past three years, not only slinging beers, wine and shaking up cockatails but unfortunately stock management and training which happened to inconveniently be every friday during peak hour, I am now a patient person! <br/>
+            And sorrounded by people working or worked in the IT industry, I have always had a keen interest in how these things work and have always wanted to understand the jargon better and be a part of the community. <br/>
+            That's perhaps why I have now chucked everything aside and am continuously in pursuit of new technologies that will undeniably get me in touch with my inner geek. </p>
           </div>
           <div class="col-md-6">
-            <br>
-            <img src="img/hobby.png" class="img-responsive wow bounceInRight hobby"  data-wow-duration="2s" data-wow-delay="0.7s">
+            <img src="img/goal.png">
           </div>
         </div>
       </div>
     </section>
 
-    <section class="languages">
+    <section class="languages" id="scroll-skills">
 
       <div class="container">
         <h1 class="page-header wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.5s">Technical Skills</h1>
@@ -161,7 +169,7 @@
       </div>
     </section>
 
-    <section class="projects wow bounceIn" data-wow-duration="2s" data-wow-delay="0.7s">
+    <section class="projects wow bounceIn" id="scroll-projects" data-wow-duration="2s" data-wow-delay="0.7s">
       <h1 class="page-header">Recent projects</h1>
       <p>these are the projects I have done in the last three months</p>
       <div class="container">
@@ -179,17 +187,27 @@
       </div>
     </section>
 
-    <section class="section-secondary slogan wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.7s">
+
+
+    <section class="interests" id="scroll-interests">
       <div class="container">
-        <h1 class="page-header">What im striving for</h1>
         <div class="row">
           <div class="col-md-6">
-            <p>Having worked in the hospitality industry for the past three years, not only slinging beers, wine and shaking up cockatails but unfortunately stock management and training which happened to inconveniently be every friday during peak hour, I am now a patient person! <br/>
-            And sorrounded by people working or worked in the IT industry, I have always had a keen interest in how these things work and have always wanted to understand the jargon better and be a part of the community. <br/>
-            That's perhaps why I have now chucked everything aside and am continuously in pursuit of new technologies that will undeniably get me in touch with my inner geek. </p>
+            <h2 class="page-header wow bounceInLeft"  data-wow-duration="1s" data-wow-delay="0.7s">Hobbies and interests</h2>
+            <ul class="feature-list">
+              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-glass"> Making Cocktails</i></li>
+              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-music"> Acoustic Guitar</i></li>
+              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-leaf">  Fishing</i>
+              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-tree-conifer"> Hiking</i></li>
+              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-play"> Gaming</i></li>
+              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-book"> Reading</i></li>
+              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.7s"><i class="glyphicon glyphicon-facetime-video"> Star Wars</i></li>
+              <li class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="1s"><i class="glyphicon glyphicon-thumbs-up"> And coding of course </i></li>
+            </ul>
           </div>
           <div class="col-md-6">
-            <img src="img/goal.png">
+            <br>
+            <img src="img/hobby.png" class="img-responsive wow bounceInRight hobby"  data-wow-duration="2s" data-wow-delay="0.7s">
           </div>
         </div>
       </div>
@@ -197,7 +215,7 @@
 
 
 
-    <section class="contact" data-wow-duration="2s" data-wow-delay="0.7s">
+    <section class="contact" id="scroll-contact" data-wow-duration="2s" data-wow-delay="0.7s">
       <div class="container">
         <div class="row">
           <div class="md-col-6">
@@ -221,11 +239,19 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/wow.js"></script>
     <script>
       new WOW().init();
     </script>
+
+    <!-- <script>
+    $("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#scroll-interests").offset().top
+    }, 2000);
+});
+    </script> -->
+
   </body>
 </html>

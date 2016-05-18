@@ -7,7 +7,7 @@
   }
 
   .section-secondary{
-    background: #f4f4f4;
+    background: #297A98;
     color: #black;
     padding: 60px 0;
   }
@@ -118,8 +118,8 @@
     padding-top: 20px;
   }
   .interests{
-    color: #fff;
-    background: #5B4282;
+    color: black;
+    background: #F4F4F4;
   }
 
   .languages{
@@ -128,7 +128,7 @@
     background: #f4f4f4;
   }
   .projects{
-    background: #F0DB4F;
+    background: #F3584D;
     text-align: center;
     padding-top: 10px;
   }
