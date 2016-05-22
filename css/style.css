@@ -128,7 +128,7 @@
     background: #f4f4f4;
   }
   .projects{
-    background: #F3584D;
+    background: url(../img/projects.jpeg) no-repeat;
     text-align: center;
     padding-top: 10px;
   }
@@ -147,7 +147,7 @@
   }
 
 
-  .imghov1:hover{
+  /*.imghov1:hover{
     -webkit-transform:scale(1.1); /*Webkit: Scale down image to 0.8x original size*/
     -moz-transform:scale(1.1); /*Mozilla scale version*/
     -o-transform:scale(1.1); /*Opera scale version*/
@@ -156,7 +156,7 @@
     -o-transition-duration: 0.5s; /*Opera duration version*/
     opacity: 1; /*initial opacity of images*/
     margin: 0 10px 10px 0; /*margin between images*/
-  }
+  }*/
 
   @media(max-width: 990px){
     .navbar-header{
