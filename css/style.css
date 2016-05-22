@@ -7,9 +7,13 @@
   }
 
   .section-secondary{
-    background: #297A98;
+    background: #f4f4f4;
     color: #black;
-    padding: 60px 0;
+    padding-top: 60px 0;
+  }
+
+  .section-secondary img{
+    border-radius: 50%;
   }
 
   .slogan{
@@ -119,16 +123,19 @@
   }
   .interests{
     color: black;
-    background: #F4F4F4;
+    background: #f4f4f4;
   }
 
+  .interests img{
+    border-radius: 50%;
+  }
   .languages{
     text-align: center;
     padding-top: 10px;
-    background: #f4f4f4;
+    background: #A43C25;
   }
   .projects{
-    background: url(../img/projects.jpeg) no-repeat;
+    background: #A89AC5;
     text-align: center;
     padding-top: 10px;
   }
