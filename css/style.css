@@ -12,8 +12,8 @@
     padding-top: 60px 0;
   }
 
-  .section-secondary img{
-    border-radius: 50%;
+  .section-secondary p{
+    text-align: justify;
   }
 
   .slogan{
