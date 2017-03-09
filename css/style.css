@@ -125,7 +125,9 @@
     color: black;
     background: #f4f4f4;
   }
-
+  .image-tiles{
+    margin-top: 10px;
+  }
   .interests img{
     border-radius: 50%;
   }
