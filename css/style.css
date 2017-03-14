@@ -80,8 +80,8 @@
 
 
   .navbar-nav a:hover,.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background: #39BBE9!important;
-    color: #fff !important;
+    background: #f8f8f8!important;
+    color: #4e192a !important;
   }
 
   .jumbotron{
